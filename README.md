@@ -1,44 +1,81 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Bookstore CMS
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+* [About the Project](#about-the-project)
+* [Built With](#built-with)
+* [Getting Started](#getting-started)
+* [Contributing](#contributing)
+* [Author](#author)
+* [Acknowledgements](#acknowledgements)
 
-### `npm start`
+## About Project
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+"Bookstore CMS" is a content management React-Redux app that's meant to help a user add or remove books but most importantly keep tracking data in terms of progress made so far in reading a particular book.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<!-- ![screenshot](./src/assets/images/screenshot.png) -->
 
-### `npm test`
+<!-- ## [Live Demo - GH pages]() -->
+## [Live Demo - Netlify](https://condescending-shockley-2daf50.netlify.app/)
+<!-- ## [Live Demo - Heroku]() -->
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built With
 
-### `npm run build`
+* ReactJS
+* Redux
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* Clone this repo <https://github.com/Lameck1/bookstore>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    git clone https://github.com/Lameck1/bookstore.git
+    ```
 
-### `npm run eject`
+* Navigate to bookstore folder/directory
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    ```bash
+    cd bookstore
+    ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* On the comandline, at the project's root, run ```npm install``` to install app dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Next, run ```npm start``` which will run the app in the development mode.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Learn More
+* ALTERNATIVELY
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  * Just run ```npm run build``` which will build the project and generate output files into the ```build``` directory.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  * Go to ```build``` directory and manually open ```index.html``` to interact with the app
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Lameck1/bookstore/issues)
+
+  1. Fork the Project
+  2. Create your Feature Branch (`git checkout -b feature/newFeature`)
+  3. Commit your Changes (`git commit -m 'Add some newFeature'`)
+  4. Push to the Branch (`git push -u origin feature/newFeature`)
+  5. Open a Pull Request
+
+## Author
+
+👤 **Lameck Otieno**
+
+* GitHub: [@githubhandle](https://github.com/Lameck1)
+* Twitter: [@twitterhandle](https://twitter.com/lameck721)
+* LinkedIn: [LinkedIn](https://www.linkedin.com/in/lameck-odhiambo-642b7077/)
+* Portfolio: [Portfolio](https://lameck.me)
+
+## Acknowledgements
+
+* [ReactJS Organization](https://reactjs.org/) for the amazing [Documentation](https://reactjs.org/docs/getting-started.html) on React.
+* [Redux Organization](https://redux.js.org/) for the amazing [Redux Essentials Tutorial](https://redux.js.org/tutorials/essentials/part-1-overview-concepts) on React.
+
+## Show your support
+
+Give a ⭐️ if you like this project!
