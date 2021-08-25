@@ -1,0 +1,16 @@
+.nav {
+  width: 65%;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.nav,
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  margin-left: 1em;
+  font-size: 1rem;
+}
