@@ -9,7 +9,7 @@ const BookList = ({ books }) => (
         id, category, title, author, progress, currentChapter,
       } = book;
       return (
-        <li key={book.title}>
+        <li key={book.id}>
           <Book
             id={id}
             category={category}
