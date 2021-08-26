@@ -59,9 +59,9 @@ From the BookStore API, this app/project is interacting/consuming the following 
 
   * **Base URL** - <https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi>
   * **Creating a new App - Method(POST)** - <https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/> (This will give you an APP_ID)
-  * **Getting all books/ Posting a new Book(POST method)/ Deleting a Book(DELETE method)** - <https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/`${APP_ID}`/books>
+  * **Getting all books(GET method)/ Posting a new Book(POST method)/ Deleting a Book(DELETE method)** - <https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/`${APP_ID}`/books>
 
-Take a look at the [DOCUMENTATION](BookStore API) and undestand how you can work with it.
+Take a look at the [DOCUMENTATION](https://www.notion.so/Bookstore-API-51ea269061f849118c65c0a53e88a739) and undestand how you can work with it further.
 
 ## Contributing
 
