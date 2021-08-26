@@ -6,11 +6,12 @@ const BookList = ({ books }) => (
   <ul>
     {books.map((book) => {
       const {
-        category, title, author, progress, currentChapter,
+        id, category, title, author, progress, currentChapter,
       } = book;
       return (
         <li key={book.title}>
           <Book
+            id={id}
             category={category}
             title={title}
             author={author}
