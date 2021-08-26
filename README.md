@@ -16,7 +16,7 @@
 <!-- ![screenshot](./src/assets/images/screenshot.png) -->
 
 <!-- ## [Live Demo - GH pages]() -->
-## [Live Demo - Netlify](https://condescending-shockley-2daf50.netlify.app/)
+## [Live Demo - Netlify](https://book-storecms.netlify.app/)
 <!-- ## [Live Demo - Heroku]() -->
 
 ## Built With
