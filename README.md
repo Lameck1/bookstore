@@ -5,6 +5,7 @@
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
 * [Getting Started](#getting-started)
+* [API Interactions](#api-interactions)
 * [Contributing](#contributing)
 * [Author](#author)
 * [Acknowledgements](#acknowledgements)
@@ -12,6 +13,7 @@
 ## About Project
 
 "Bookstore CMS" is a content management React-Redux app that's meant to help a user add or remove books but most importantly keep tracking data in terms of progress made so far in reading a particular book.
+This project uses [Bookstore API](https://www.notion.so/Bookstore-API-51ea269061f849118c65c0a53e88a739) for storage of book details data.
 
 <!-- ![screenshot](./src/assets/images/screenshot.png) -->
 
@@ -23,6 +25,7 @@
 
 * ReactJS
 * Redux
+* [Bookstore API](https://www.notion.so/Bookstore-API-51ea269061f849118c65c0a53e88a739)
 
 ## Getting Started
 
@@ -49,6 +52,18 @@
   * Just run ```npm run build``` which will build the project and generate output files into the ```build``` directory.
 
   * Go to ```build``` directory and manually open ```index.html``` to interact with the app
+
+## API Interactions
+
+From the BookStore API, this app/project is interacting/consuming the following endpoints:
+
+  * **Base URL** - <https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi>
+  * **Creating a new App - Method(POST)** - <https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/> (This will give you an APP_ID)
+  * **Getting all books/ Posting a new Book(POST method)/ Deleting a Book(DELETE method)** - <https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/`${APP_ID}`/books>
+
+Take a look at the [DOCUMENTATION](BookStore API) and undestand how you can work with it.
+
+## Contributing
 
 ## Contributing
 
