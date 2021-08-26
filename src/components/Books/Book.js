@@ -6,12 +6,12 @@ import Progress from './Progress';
 import './Book.css';
 
 const Book = ({
-  category, title, author, progress, currentChapter,
+  id, category, title, author, progress, currentChapter,
 }) => (
   <div className="book-container">
     <div>
       <BookDetails category={category} title={title} author={author} />
-      <BookActions />
+      <BookActions id={id} />
     </div>
     <div className="stats">
       <Progress value={progress} />
@@ -21,6 +21,7 @@ const Book = ({
 );
 
 Book.propTypes = {
+  id: PropTypes.number,
   category: PropTypes.string,
   title: PropTypes.string.isRequired,
   author: PropTypes.string,
@@ -29,6 +30,7 @@ Book.propTypes = {
 };
 
 Book.defaultProps = {
+  id: 1,
   category: 'Unknown',
   author: 'Unknown',
   progress: 0,
