@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addBook } from '../../redux/books/books';
+import uniqid from 'uniqid';
+import { createBook } from '../../redux/books/books';
 import Button from './Button';
 import './NewBook.css';
 
-const categories = ['Contemporary', 'Thriller', 'Health', 'Cooking', 'Memoir', 'History'];
+const categories = ['Development', 'Contemporary', 'Thriller', 'Health', 'Cooking', 'Memoir', 'History'];
 
 const NewBook = () => {
   const dispatch = useDispatch();
@@ -17,7 +18,7 @@ const NewBook = () => {
       <form onSubmit={(e) => {
         e.preventDefault();
         if (title && category) {
-          dispatch(addBook({ title, category }));
+          dispatch(createBook({ item_id: uniqid(), title, category }));
           setTitle('');
           setCategory(categories[0]);
           e.target.reset();

@@ -21,7 +21,7 @@ const Book = ({
 );
 
 Book.propTypes = {
-  id: PropTypes.number,
+  id: PropTypes.string,
   category: PropTypes.string,
   title: PropTypes.string.isRequired,
   author: PropTypes.string,
@@ -30,11 +30,11 @@ Book.propTypes = {
 };
 
 Book.defaultProps = {
-  id: 1,
-  category: 'Unknown',
-  author: 'Unknown',
+  id: '',
+  category: '',
+  author: '',
   progress: 0,
-  currentChapter: 'Introduction',
+  currentChapter: '',
 };
 
 export default Book;

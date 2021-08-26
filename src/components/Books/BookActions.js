@@ -2,13 +2,12 @@ import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 import Button from './Button';
 import './BookActions.css';
-import { removeBook } from '../../redux/books/books';
+import { deleteBook } from '../../redux/books/books';
 
 const BookActions = ({ id }) => {
   const dispatch = useDispatch();
-  const handleRemove = () => dispatch(removeBook(id));
+  const handleRemove = () => dispatch(deleteBook(id));
   return (
-
     <div className="actions">
       <Button name="Comments" />
       <Button name="Remove" clickHandler={handleRemove} />
@@ -18,11 +17,11 @@ const BookActions = ({ id }) => {
 };
 
 BookActions.propTypes = {
-  id: PropTypes.number,
+  id: PropTypes.string,
 };
 
 BookActions.defaultProps = {
-  id: 1,
+  id: '',
 };
 
 export default BookActions;
