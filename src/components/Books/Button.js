@@ -4,7 +4,7 @@ const Button = ({
   name, clickHandler, btnType,
 }) => {
   const handleClick = () => {
-    clickHandler(name);
+    clickHandler();
   };
 
   return (
